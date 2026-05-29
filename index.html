@@ -502,13 +502,13 @@ let ALL_TASKS=[], DONE={}, CTIMER=null, GROUP_BY_USER=false;
 
 // ── PM Sheet credentials ──────────────────────────────────────────────────
 let CFG={
-  id :'1G-XBIgHhBLWmV6nr4PdJLxTnB9aK0YxBIR0x6-ks0SI',
+  id :'1VDmxPu9L2t3wsdhZkz4GRNrfDSPdX4wne-LBrmN7B_Y',
   key:'AIzaSyAJiNZ5-_LgrNuHuwqC-xM3f9YfhjHvYXI',
   tab:'Sheet1'
 };
 // ─────────────────────────────────────────────────────────────────────────
 
-const APPS_SCRIPT_URL='https://script.google.com/macros/s/AKfycbySqQCJ1XmY9mwM5yRbqfv8yOQyl-r00g5WJB0ATcAxuJjaoaBNjHel0Tv90WbAf3kl/exec';
+const APPS_SCRIPT_URL='https://script.google.com/macros/s/AKfycbzbERYf6Ruq4ybptsyb-eUVWdDG4g4VovM74h4tRjFsNWveCwH7ph6tqfTWQr-D-R__/exec';
 
 try{const s=localStorage.getItem('pm_done_v1');if(s)DONE=JSON.parse(s);}catch(e){}
 try{const c=localStorage.getItem('pm_cfg1');if(c){const p=JSON.parse(c);CFG={...CFG,...p};}}catch(e){}
